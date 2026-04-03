@@ -1,58 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
 <head>
 <meta charset="UTF-8">
+<title>SVG Fullscreen Slider</title>
 <style>
-#slider{
-width:500px;
-height:500px;
-}
+  /* Tam ekran için body ve html */
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Arkaplan siyah, istersen değiştir */
+  }
 
-#slider img{
-width:100%;
-height:100%;
-}
+  /* Slider container tam ekran */
+  #slider {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* SVG img tam ekrana sığacak şekilde */
+  #slider img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Bozulmadan ölçekleme */
+  }
 </style>
 </head>
-
 <body>
 
 <div id="slider">
-<img id="slide" src="">
+  <img id="slide" src="" alt="SVG Slideshow">
 </div>
 
 <script>
+  // SVG raw linklerini buraya ekle
+  let images = [
+    "slide1.svg",
+    "slide2.svg",
+    "slide3.svg"
+  ];
 
-let images = [
+  let index = 0;
 
-"slide1.svg",
+  function slideShow(){
+    document.getElementById("slide").src = images[index];
+    index++;
+    if(index >= images.length){
+      index = 0;
+    }
+  }
 
-"slide2.svg",
-
-"slide3.svg"
-
-];
-
-let index = 0;
-
-function slideShow(){
-
-document.getElementById("slide").src = images[index];
-
-index++;
-
-if(index >= images.length){
-
-index = 0;
-
-}
-
-}
-
-setInterval(slideShow,2000);
-
-slideShow();
-
+  setInterval(slideShow, 2000); // 2 saniye arayla geçiş
+  slideShow(); // Başlangıçta ilk resmi göster
 </script>
 
 </body>
