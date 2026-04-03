@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+width="1920"
+height="1080"
+viewBox="0 0 1920 1080"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+
+<rect width="1920" height="1080" fill="#0f2027"/>
+
+<text x="120" y="200" font-size="70" font-family="Arial" fill="white">
+Özellikler
+</text>
+
+<rect x="120" y="240" width="500" height="6" fill="#00c6ff"/>
+
+<circle cx="300" cy="500" r="120" fill="#00c6ff"/>
+
+<circle cx="650" cy="500" r="120" fill="#0072ff"/>
+
+<circle cx="1000" cy="500" r="120" fill="#00c6ff"/>
+
+<text x="240" y="750" font-size="30" fill="white">
+SVG
+</text>
+
+<text x="570" y="750" font-size="30" fill="white">
+Design
+</text>
+
+<text x="920" y="750" font-size="30" fill="white">
+Vector
+</text>
+
+</svg>

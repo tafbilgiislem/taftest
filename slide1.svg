@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+width="1920"
+height="1080"
+viewBox="0 0 1920 1080"
+xmlns="http://www.w3.org/2000/svg"
+xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+
+<rect width="1920" height="1080" fill="#f4f6f8"/>
+
+<text x="120" y="220" font-size="72" font-family="Arial" fill="#222">
+SVG Sunumu
+</text>
+
+<text x="120" y="320" font-size="36" font-family="Arial" fill="#555">
+Inkscape ile hazırlanmış örnek slayt
+</text>
+
+<rect x="120" y="360" width="600" height="8" fill="#2d89ef"/>
+
+<text x="120" y="500" font-size="32" fill="#333">
+• Vektör tabanlı tasarım
+</text>
+
+<text x="120" y="560" font-size="32" fill="#333">
+• Ölçeklenebilir grafikler
+</text>
+
+<text x="120" y="620" font-size="32" fill="#333">
+• Profesyonel sunum altyapısı
+</text>
+
+</svg>
